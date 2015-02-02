@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET =
-VERSION = 0.6.3
+VERSION = 0.8.8.8
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE BOOST_THREAD_PROVIDES_GENERIC_SHARED_MUTEX_ON_WIN __NO_SYSTEM_INCLUDES
 CONFIG += no_include_pwd
@@ -236,7 +236,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/notificator.cpp \
     src/qt/qtipcserver.cpp \
     src/qt/rpcconsole.cpp \
-    src/scrypt.c \
+    src/scrypt.cpp \
     src/qt/miningpage.cpp \
     src/noui.cpp
 
